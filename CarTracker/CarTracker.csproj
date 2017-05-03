@@ -199,12 +199,17 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CarMakesApiController.cs" />
+    <Compile Include="Controllers\CarMakesController.cs" />
+    <Compile Include="Controllers\CarsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\CarMake.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -217,6 +222,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\App\AddNewCar.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -267,6 +273,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Cars\Create.cshtml" />
+    <Content Include="Views\Cars\Delete.cshtml" />
+    <Content Include="Views\Cars\Details.cshtml" />
+    <Content Include="Views\Cars\Edit.cshtml" />
+    <Content Include="Views\Cars\Index.cshtml" />
+    <Content Include="Views\CarMakes\Create.cshtml" />
+    <Content Include="Views\CarMakes\Delete.cshtml" />
+    <Content Include="Views\CarMakes\Details.cshtml" />
+    <Content Include="Views\CarMakes\Edit.cshtml" />
+    <Content Include="Views\CarMakes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -29,5 +29,9 @@ namespace CarTracker.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CarTracker.Models.Car> Cars { get; set; }
+
+        public System.Data.Entity.DbSet<CarTracker.Models.CarMake> CarMakes { get; set; }
     }
 }

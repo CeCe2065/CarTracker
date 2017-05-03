@@ -22,3 +22,8 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/*added line below*/
+#NewCarMakeForm {
+    display: none;
+}
